@@ -1,5 +1,5 @@
 import XCTest
-import PythonKit
+import Python3Kit
 
 class NumpyConversionTests: XCTestCase {
     static var numpyModule = try? Python.attemptImport("numpy")

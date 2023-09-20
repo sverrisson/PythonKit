@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "PythonKit",
+    name: "Python3Kit",
     products: [
         .library(
-            name: "PythonKit",
-            targets: ["PythonKit"]
+            name: "Python3Kit",
+            targets: ["Python3Kit"]
         )
     ],
     targets: [
         .target(
-            name: "PythonKit",
-            path: "PythonKit"
+            name: "Python3Kit",
+            path: "Python3Kit"
         ),
         .testTarget(
-            name: "PythonKitTests",
-            dependencies: ["PythonKit"]
+            name: "Python3KitTests",
+            dependencies: ["Python3Kit"]
         ),
     ]
 )

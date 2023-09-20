@@ -1,5 +1,5 @@
 import XCTest
-import PythonKit
+import Python3Kit
 
 class PythonRuntimeTests: XCTestCase {
     func testCheckVersion() {
